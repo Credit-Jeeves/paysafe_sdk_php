@@ -75,14 +75,14 @@ class MerchantAccountService
             'productCode',
             'category',
             'phone',
-            'yearlyVolumeRange',
-            'averageTransactionAmount',
-            'merchantDescriptor'
+            'averageTransactionAmount'
         ));
         $merchantAccount->setOptionalFields(array(
             'merchantId',
             'caAccountDetails',
             'usAccountDetails',
+            'yearlyVolumeRange',
+            'merchantDescriptor'
         ));
 
         $request = new Request(array(
